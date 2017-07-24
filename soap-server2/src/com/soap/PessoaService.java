@@ -6,7 +6,7 @@ import javax.jws.soap.SOAPBinding;
 
 import com.bean.Pessoa;
 
-	
+//Service Endpoint Interface	
 @WebService
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface PessoaService {
