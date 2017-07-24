@@ -8,7 +8,7 @@ import javax.jws.WebService;
 
 import com.bean.Pessoa;
 
-
+//Service Implementation
 @WebService(endpointInterface = "com.soap.PessoaService")  
 public class PessoaServiceImpl implements PessoaService {
 
